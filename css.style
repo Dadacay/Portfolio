@@ -1,1 +1,12 @@
-g
+
+
+*{
+    margin:0;
+    padding;
+    font-family: 'Poppins', sans-serif;
+    background: blue;
+}
+
+body {
+    background-color: darkblue ;
+}
