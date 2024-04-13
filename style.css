@@ -9,3 +9,21 @@
 body {
     background-color: darkblue ;
 }
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    padding: 20px, 10%;
+    background: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    
+}
+.navbar a{
+    
+}
