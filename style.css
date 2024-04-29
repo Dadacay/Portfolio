@@ -6,10 +6,14 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    color: #ffffff;
 }
 
 body{
-    background-image: url(bg.jpg);
+    background-image: url("Assets/download.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 /* NAVIGATION BAR */
@@ -21,7 +25,7 @@ nav{
 }
 
 .navigation-bar{
-    background-color: #fd120ecf;
+    background-color: #000017;
     padding: 5px;
     margin: 0;
     height: 70px;
@@ -56,16 +60,16 @@ li{
 }
 
 .nav-list a:hover{
-    color: #f9f6ef;
-    border-top: 6px solid #f9f6ef;
-    border-bottom: 6px solid #f9f6ef;
+    color: #ff00b3;
+    border-top: 6px solid #ff00b3;
+    border-bottom: 6px solid #ff00b3;
     animation-delay: 3s;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .nav-list a{
-    color: #000;
+    color: #ffffff;
     text-decoration-line: none;
     padding: 2px;
     border-radius: 4px;
@@ -122,7 +126,7 @@ li{
     margin-left: auto;
     text-align: center;
     text-decoration: none;
-    color: #fd120ecf;
+    color: #ff00b3;
 }
 
 .typewriter{
@@ -133,9 +137,9 @@ li{
     content: '|';
     position: absolute;
     right: 0;
-    color:#fd120ecf;
+    color:#ff00b3;
     width: 100%;
-    background-color: #f9f6ef;
+    background-color: #000017;
     animation: typing 2.5s steps(30) alternate infinite;
 }
 
@@ -167,13 +171,13 @@ li{
 .about-statement p{
     margin-left: 100px;
     font-size: 45px;
-    color: #fd120ecf;
+    color: #ff00b3;
     font-style: italic;
 }
 
 .vision-statement h3{
     margin: 15px;
-    color: #fd120ecf;
+    color: #ff00b3;
 }
 
 .vision-statement p{
@@ -182,7 +186,7 @@ li{
 
 .mission-statement h3{
     margin: 15px;
-    color: #fd120ecf;
+    color: #ff00b3;
 }
 
 .mission-statement p{
@@ -191,7 +195,7 @@ li{
 
 .values-statement h3{
     margin: 15px;
-    color: #fd120ecf;
+    color: #ff00b3;
 }
 
 .values-statement p{
@@ -222,8 +226,8 @@ li{
 }
 
 .skill-quote1 q{
-    color: #fd120ecf;
-    font-size: 40px;
+    color: #ff00b3;
+    font-size: 36px;
     display: flex;
     justify-content: flex-end;
     padding: 10px;
@@ -235,7 +239,7 @@ li{
 }
 
 .skill-quote2 q{
-    color: #fd120ecf;
+    color: #ff00b3;
     font-size: 40px;
     display: flex;
     justify-content: flex-start;
@@ -278,21 +282,21 @@ li{
 fieldset{
     text-align: center;
     margin: auto;
-    border-color: #fd120ecf;
+    border-color: #ff00b3;
     width: 1050px;
     border-style: double;
     border-width: 5px;
 }
 
 legend{
-    color: #fd120ecf;
+    color: #ff00b3;
     font-size: 30px;
     text-align: left;
 }
 
 /* FOOTER */
 .main-footer{
-    background-color: #fd120ecf;
+    background-color: #ff00b3;
     height: 60px;
     padding: 0px;
     margin: 0;
